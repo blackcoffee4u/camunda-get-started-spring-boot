@@ -1,0 +1,28 @@
+<form role="form">
+
+    <script cam-script type="text/form-script">
+// debugger;
+        window.bemCamunda = window.bemCamunda || {};
+
+
+        inject(['$http', 'Uri', function ($http, Uri) {
+            camForm.on('form-loaded', function () {
+                // camForm.variableManager.fetchVariable('myVar');
+            });
+        }]);
+        camForm.on('variables-fetched', function () {
+            // $scope.data.myVar = camForm.variableManager.variable('myVar').value;
+        });
+        camForm.on('submit', function () {
+
+        });
+
+
+    </script>
+
+    <p class="lead">Check Loan Request</p>
+
+    <div>
+        Not much to check here...
+    </div>
+</form>

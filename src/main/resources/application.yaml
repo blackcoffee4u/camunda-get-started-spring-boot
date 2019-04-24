@@ -1,3 +1,6 @@
+server:
+  servlet:
+    contextPath: /my/camunda
 camunda.bpm:
   admin-user:
     id: kermit
